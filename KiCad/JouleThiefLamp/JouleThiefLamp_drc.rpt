@@ -1,0 +1,60 @@
+** Drc report for JouleThiefLamp.kicad_pcb **
+** Created on 2026-07-19T19:27:40 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 12 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(7.6200 mm, -10.1600 mm): Circle of U$2 on F.Silkscreen
+    @(11.4300 mm, -11.4300 mm): Circle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(26.0350 mm, -8.1534 mm): Reference field of LED1
+    @(27.9400 mm, -10.1600 mm): PTH pad CENTER [N$3] of U$3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(17.7800 mm, -6.6040 mm): Segment of R1 on B.Silkscreen
+    @(17.7800 mm, -7.6200 mm): PTH pad P$2 [N$1] of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(17.7800 mm, -6.3500 mm): Segment of R1 on B.Silkscreen
+    @(17.7800 mm, -5.0800 mm): PTH pad P$1 [N$5] of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(22.8600 mm, -2.5400 mm): Arc of Q1 on B.Silkscreen
+    @(20.3200 mm, -2.5400 mm): PTH pad 3 [N$3] of Q1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(22.8600 mm, -2.5400 mm): Arc of Q1 on B.Silkscreen
+    @(25.4000 mm, -2.5400 mm): PTH pad 1 [-] of Q1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(2.5400 mm, -8.5725 mm): PCB text 'RED' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.0175 mm, -8.5725 mm): PCB text 'GREEN' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(18.0975 mm, -11.7475 mm): PCB text 'RED' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.9875 mm, -11.7475 mm): PCB text 'GREEN' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0406 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(19.6850 mm, -4.4450 mm): Reference field of Q1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3658 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.6850 mm, -4.4450 mm): Reference field of Q1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
